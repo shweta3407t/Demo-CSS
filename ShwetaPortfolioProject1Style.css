@@ -1,0 +1,32 @@
+#myName{
+    color: blue;
+}
+
+
+.headerInfo {
+   margin: 10px;
+
+    text-align: center;
+
+}
+
+.headerLink{
+    text-decoration: none;
+}
+
+
+
+#contactDetails{
+    padding-top: 0px;
+    
+}
+
+#githubLink{
+    text-align: left;
+
+}
+
+#LinkedInLink{
+    text-align: right;
+
+}
