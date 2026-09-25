@@ -186,16 +186,146 @@
 
 
 // ////leteral string
-//  let name="shweta";
-// console.log(name);
-// let output = 'my  \t name \n  is ${1+ 2+444}';
+//  let student= {
+//     name : "shweta"
+//  };
+// console.log(name);  
+//  //embed expression in string--->string interpolation
+//  let output = `my  \t name \n  is ${student.name}`;  ///n  /t escate character
 // console.log(  output);
 
 
-let str="hello there my name is shweta i am learning javascript";
-let newStr=str.toUpperCase;
 
-console.log(str);
-console.log(newStr);
+
+
+// let str="shweta shweta prajapati";
+// //  let newStr=str.toUpperCase;
+
+// //  let newStr=str.toLocaleLowerCase;
+
+// //  let newStr=str.trim;
+
+// //  let newStr=str.slice(0 , 4);
+
+// //   let newStr=str.concat("prajapati");
+
+// //  let newStr=str.replace("shweta" ,"ankita");
+
+// //   let newStr=str.replaceAll("shweta" ,"ankita");
+
+// //  let newStr=str.charAt(2);
+
+//  let newStr=str.charAt(2);
+
+// console.log(str);
+// console.log(newStr);
+
+
+
+ 
+
+
+// ////Question
+// let fullName=prompt("enter your full name");
+// let newName="@"+ fullName + fullName.length;
+
+// console.log(newName);
+
+
+
+
+
+
+// //////Array
+// let companies= ["google" , "jpMorgan" ,"amazon"];
+// let newCompany=[];
+
+
+// //loop in array
+// for(let i =0 ; i<length-1 ; i++){
+//     console.log(i);
+// }
+
+
+// for(let company in companies){
+//      newCompany+=company;
+// }
+
+
+// for(let element of companies){
+//     console.log(element.toUpperCase);
+// }
+
+
+
+// companies[2]="microsoft";
+// console.log(heros[2]);//can change string value in array
+
+// console.log(companies);
+// console.log(newCompany);
+
+// let info=["shweta" , 22 , "prajapati"] //can store data of multiple type but not preferable
+
+
+
+
+
+
+
+// /////Question
+// let marks=[32 ,33,44,55,65,44,44,34,54 , 32,32 , 5,4]
+// let sum=0;
+// for(let mark in marks){
+//     sum += mark;
+     
+// }
+// let avg=sum/marks.length;
+// console.log("average os al student is " + avg);
+
+
+
+
+
+
+
+// ////Question
+// let price=[250 , 645 , 300 , 900 , 50];
+// let valueAfterDiscount=[];
+// let offer;
+// for(let i =0 ; i<price.length ; i++){
+
+//     offer=i/10;
+//     price[i]-=offer
+
+//     valueAfterDiscount.push(price[i]);
+
+//     console.log( `value after discount ${price[i]}`);
+
+// }
+
+
+
+
+
+
+// let num=[];
+//  for(let i =0 ; i<=10 ; i++){
+//     num.push(i);
+//  } 
+
+//  console.log(num)
+
+//  let deletedValueFromEnd = num.pop();
+//  console.log(deletedValueFromEnd);
+ 
+ let hero=["sk" , "srk" , "ak"];
+ let herions=["deepika" ,"shraddha"];
+
+ console.log( hero.concat(herions));
+
+
+console.log(hero.unshift("ankita"));
+
+
 
 
